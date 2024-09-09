@@ -11,7 +11,7 @@ const projectsData = [
     description: "A simple online clothing brand website made using react library.",
     image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Abhinav-Gyawali/",
+    gitUrl: "https://github.com/Abhinav-Gyawali/xoev",
     previewUrl: "https://xoev.vercel.app",
   },
   {
@@ -20,7 +20,7 @@ const projectsData = [
     description: "A website that posts articles, views, experiences on the latest topics and create users engagemnet in it.",
     image: "/images/projects/2.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Abhinav-Gyawali/",
+    gitUrl: "https://github.com/Abhinav-Gyawali/themeverse",
     previewUrl: "https://themeverse.abhinav-gyawali.com.np",
   },
 ];
