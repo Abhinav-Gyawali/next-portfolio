@@ -36,7 +36,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm Abhinav Gyawali, a 16-year-old developer with a passion for coding and technology. I specialize in React and Django, and I love building innovative web solutions. I'm always eager to learn, improve my skills, and take on new challenges in the tech world.
+            I&apos;m Abhinav Gyawali, a 16-year-old developer with a passion for coding and technology. I specialize in React and Django, and I love building innovative web solutions. I&apos;m always eager to learn, improve my skills, and take on new challenges in the tech world.
           </p>
           <div>
             <Link
