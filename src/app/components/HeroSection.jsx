@@ -62,11 +62,24 @@ const HeroSection = () => {
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
           <div>
-          <div style={{ background-image:url("/images/splash.png");mix-blend-mode:mixed;}}>
-          </div>
-          <div style={{ background-image:url("/images/badge.jpg");}}>
-          </div>
-          </div>
+      <div
+        style={{
+          backgroundImage: 'url("/images/splash.png")',
+          mixBlendMode: 'multiply', // Adjust blend mode as needed
+          width: '100%', // Set width and height as needed
+          height: '100%',
+          position: 'absolute', // Ensure it overlays properly
+        }}
+      />
+      <div
+        style={{
+          backgroundImage: 'url("/images/badge.jpg")',
+          width: '100%', // Set width and height as needed
+          height: '100%',
+          position: 'relative', // Adjust based on layout
+        }}
+      />
+    </div>
         </motion.div>
       </div>
     </section>
