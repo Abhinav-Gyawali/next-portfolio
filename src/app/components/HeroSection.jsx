@@ -65,7 +65,7 @@ const HeroSection = () => {
       {/* Splash Overlay */}
       <div
         style={{
-          backgroundImage: 'url("/images/splash.png")',
+          backgroundImage: 'url("/images/splash.jpg")',
           mixBlendMode: 'multiply', // Adjust blend mode for desired effect
           width: '100%',
           height: '100%',
