@@ -61,22 +61,32 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div>
+              <div style={{ position: 'relative', width: '200px', height: '200px' }}>
+      {/* Splash Overlay */}
       <div
         style={{
           backgroundImage: 'url("/images/splash.png")',
-          mixBlendMode: 'multiply', // Adjust blend mode as needed
-          width: '100%', // Set width and height as needed
+          mixBlendMode: 'multiply', // Adjust blend mode for desired effect
+          width: '100%',
           height: '100%',
-          position: 'absolute', // Ensure it overlays properly
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          zIndex: 1, // Ensures overlay stays on top
         }}
       />
+
+      {/* Badge Image */}
       <div
         style={{
           backgroundImage: 'url("/images/badge.jpg")',
-          width: '100%', // Set width and height as needed
+          backgroundSize: 'cover', // Ensures image covers the entire area
+          width: '100%',
           height: '100%',
-          position: 'relative', // Adjust based on layout
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          zIndex: 0, // Keeps badge behind splash
         }}
       />
     </div>
