@@ -63,32 +63,25 @@ const HeroSection = () => {
         >
               <div style={{ position: 'relative', width: '200px', height: '200px' }}>
       {/* Splash Overlay */}
-      <div
-        style={{
-          backgroundImage: 'url("/images/splash.jpg")',
-          mixBlendMode: 'multiply', // Adjust blend mode for desired effect
-          width: '100%',
-          height: '100%',
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          zIndex: 1, // Ensures overlay stays on top
-        }}
-      />
-
-      {/* Badge Image */}
-      <div
-        style={{
-          backgroundImage: 'url("/images/badge.jpg")',
-          backgroundSize: 'cover', // Ensures image covers the entire area
-          width: '100%',
-          height: '100%',
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          zIndex: 0, // Keeps badge behind splash
-        }}
-      />
+      style={{
+  backgroundImage: 'url("/images/bagde.jpg")',
+  mixBlendMode: 'multiply',
+  width: '100%',
+  minWidth: '90vw',
+  minHeight: '90vw',
+  overflow: 'hidden',
+  margin: 'auto',
+  position: 'absolute',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  WebkitMaskImage: 'url("/images/splash.png")',
+  WebkitMaskRepeat: 'no-repeat',
+  WebkitMaskSize: 'cover',
+  maskImage: 'url("/images/splash.png")',
+  maskRepeat: 'no-repeat',
+  maskSize: 'cover'
+}}
     </div>
         </motion.div>
       </div>
