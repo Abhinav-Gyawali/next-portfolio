@@ -66,11 +66,10 @@ const HeroSection = () => {
       <div
   style={{
     position: 'relative',
-    width: '100%',
-    minWidth: '90vw',
-    minHeight: '90vw',
+    width: '70%',
+    minWidth: '50vw',
+    minHeight: '50vw',
     overflow: 'hidden',
-    margin: 'auto',
     backgroundImage: 'url("/images/badge.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
